@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+
+
+:root {
+    --blue: #3EA1DB;
+    --blue-dark: #574AE8;
+    --white: #FFF;
+    --font-pesquisa: font-family 'Inter', sans-serif;
+    --title: #313131;
+    --text: #B6B6B6;
+    
+    --linear: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+  }
+
+  .header{
+    background: linear-gradient(90deg, #574AE8 0%, #3EA1DB 100%);
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    
+  }
+  .menu{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    line-height: 30px;
+    color: #fff;
+    max-width: 960px;
+    padding-top: 41px ;
+    display: flex;
+    justify-content: space-between;
+    margin:0 auto;
+}
+
+.search{
+    max-width: 960px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 0 40px ;
+    position: relative;
+    align-items: center;
+
+}
+.search input{
+    width: 100%;
+    background: rgba(255, 255, 255, 0.2);
+    display: block;
+    border-radius: 5px;
+    padding: 21px 60px;
+    border: 0;
+    outline: none;
+    color: white;
+}
+.pesquisa-campo::placeholder{
+    font-family: var(--font-pesquisa);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #ffffff;
+    opacity: 0.5;
+    padding-left: 20px;
+    
+    
+
+}
+
+.icon-search {
+    position: absolute;
+    font-size:40px;
+    color: #fff;  
+    padding: 21px 20px;
+    
+    
+}
+
+/*----noticia-----*/
+.section-noticias{
+    max-width: 960px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.noticias{
+    border: 1px solid #FFF ;
+    padding: 23px 24px;
+    margin-bottom: 50px;
+}
+.sub-noticia{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.sub-noticia p{
+    font-size: 16px;
+    line-height: 20px;
+    text-align: right;
+    color: #B6B6B6;
+}
+.icon-heart{
+    font-size: 20px;
+    color: #574AE8;
+}
+
+
+.texto-noticia h1{
+    font-family:'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 32px;
+    padding-top: 20px;
+}
+
+.texto-noticia p{
+    color:#B6B6B6;
+    padding-top: 8px;
+    
+}
