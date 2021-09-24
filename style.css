@@ -100,12 +100,21 @@ p{
     border: 1px solid #FFF ;
     padding: 23px 24px;
     margin-bottom: 50px;
+    box-shadow: 0px 0px 10px rgba(19, 19, 31, 0.137);
+    border-radius: 5px;
+   
+}
+@media (max-width: 600px){
+    .noticias{
+        box-shadow: none;
+    }
 }
 .sub-noticia{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
+    
 }
 .sub-noticia p{
     font-size: 16px;
@@ -133,3 +142,4 @@ p{
     padding-top: 8px;
     
 }
+
